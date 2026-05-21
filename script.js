@@ -69,7 +69,7 @@ function searchUser(e) {
     const user = searchBar.value.trim()
     if (!user) return
     console.log(user);
-    window.location.href = `http://localhost:5500/03/users/?y=${user}`
+    window.location.href = `./users/?y=${user}`
 
 
 }
