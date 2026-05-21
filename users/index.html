@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.8.0/axios.min.js"
+        integrity="sha512-Rjx/Bee5UEvuxMc3Au6ShLf08nh+v4q3sNCI/+pSzypORWeVZG5jRZBKxM6RlA7L4hbHykwFXhmlBu/cJBaDRg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+     
+    <nav id="nav">
+        <h1 id="to-home">Github Search</h1>
+
+        <div id="search-container">
+            <input type="text" name="search-bar" id="search" placeholder="Username">
+            <button id="search-btn">Search</button>
+        </div>
+
+    </nav>
+
+    <p id="message-box" class="hidden">User not found</p>
+
+    <div id="container">
+        <div id="container1">
+
+            <img id="image" src="#" alt="avatar-img">
+            
+            <h3 id="name"></h3>
+            <h4>@<span id="username"></span></h4>
+            <button id="profile-btn">View Profile</button>
+        </div>
+        <div id="container2">
+
+            <div id="info">
+                <p id="bio">bio</p>
+                <ul>
+                    <li>
+                        <img src="https://img.icons8.com/?size=100&id=PmjA5Nvb80LT&format=png&color=000000" alt="repo-icon">
+                        <p>Repositories: <span id="repositories" ></span></p>
+                    </li>
+                    <li>
+                        <img src="https://img.icons8.com/?size=100&id=85149&format=png&color=000000" alt="location-icon">
+                        <p>Location: <span id="location"></span></p>
+                    </li>
+                    <li>
+                        <img src="https://img.icons8.com/?size=100&id=85572&format=png&color=000000" alt="website-icon">
+                        <p>Website: <span id="website"></span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
