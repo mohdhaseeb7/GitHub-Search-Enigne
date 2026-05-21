@@ -42,7 +42,7 @@ function displayGrid(users) {
             const id = evn.target.id
             // console.log(id);                
 
-            window.location.href = `http://localhost:5500/03/users/?y=${id}`
+            window.location.href = `./users/?y=${id}`
         })
     });
 
