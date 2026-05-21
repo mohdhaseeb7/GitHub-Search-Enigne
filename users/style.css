@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(187, 207, 210);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    margin-top: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    min-height: 400px;
+    width: auto;
+    max-width: 600px;
+    min-width: 400px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#container1{ 
+    border-right : 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+li{ 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li img{
+    height: 20px;
+    
+}
+
+#image {
+    max-height:150px ;
+    padding: 15px;
+}
+
+#profile-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(187, 207, 210);
+    cursor: pointer;
+}
+
+#profile-btn:hover{
+    background-color: rgb(150, 170, 173);
+}
+
+#nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#search {
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+#search-container button {
+    padding: 6px;
+    background-color:black;
+    color: white;
+    border: solid 2px white;
+}
+
+#search-container button:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#message-box {
+background-color: red;
+border-radius: 4px;
+color: white;
+padding: 6px;
+margin: 5px;
+}
+
+#to-home:hover {
+    cursor: pointer;
+}
